@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Mesach</title>
+    <link rel="stylesheet" href="trangchumesach.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  </head>
+  <body>
+	<input type="checkbox" id="menu-toggle">
+    
+	<!-- HEADER -->
+    <header class="top-header">
+        <a href="trangchumesach.html">
+          <div class="logo"> <img src="../anh/mesach.png" class="logo"/>
+		  </div>
+        </a>
+      </header>
+	  
+	<nav class="navbar">
+	<label for="menu-toggle" class="menu-btn">
+		<i class="fa-solid fa-bars"></i>
+	</label>
+      <div class="search-box">
+        <input type="text" placeholder="Tìm sách...">
+        <button>
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+      <div class="nav-icons">
+          <a href="thongbao.html">
+            <i class="fa-regular fa-bell"></i>
+          </a>
+          <a href="giohang.html">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <a href="tranglogin.html">
+            <i class="fa-regular fa-user"></i>
+          </a>
+        </div>
+	</nav>
+	
+	<!-- SIDEBAR -->
+<div class="sidebar">
+	<div class="sidebar-left">
+	<ul>
+		<li>Sách Trong Nước</li>
+		<li>Foreign Books</li>
+		<li>VPP - Dụng Cụ Học Sinh</li>
+		<li>Đồ Chơi</li>
+		<li>Làm Đẹp - Sức Khỏe</li>
+		<li>Hành Trang Đến Trường</li>
+	</ul>
+	</div>
+	<div class="sidebar-right">
+		<div class="category">
+<div class="item">
+	<h3>VĂN HỌC</h3>
+	<ul>
+		<li>Tiểu thuyết</li>
+		<li>Truyện ngắn</li>
+		<li>Ngôn tình</li>
+	</ul>
+</div>
+<div class="item">
+
+	<h3>KINH TẾ</h3>
+	<ul>
+		<li>Marketing</li>
+		<li>Quản trị</li>
+		<li>Khởi nghiệp</li>
+	</ul>
+</div>
+			<div class="item">
+	<h3>TÂM LÝ - KĨ NĂNG SỐNG</h3>
+	<ul>
+		<li>Phát triển bản thân</li>
+		<li>Tâm lý học</li>
+		</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<label for="menu-toggle" class="overlay"></label>
+    <!-- BANNER -->
+    <section class="banner">
+      <div class="banner-left">
+        <h1 class="banner-title">TOP SÁCH BÁN CHẠY</h1>
+        <h2 class="banner-sub">KHÁM PHÁ TRI THỨC MỖI NGÀY</h2>
+        <p class="banner-sale">
+          Giảm đến <span>30%</span>
+        </p>
+      </div>
+        <img src="../anh/anhbanner.png" class="banner-img">
+
+      <div class="banner-right">
+        <h2 class="banner-right-title">SÁCH HOT</h2>
+        <p class="banner-right-sub">Ưu đãi đến</p>
+        <p class="banner-right-sale">20%</p>
+      </div>
+    </section>
+
+    <!-- CATEGORY -->
+    <section class="categories">
+      <div class="card">
+        <h4>SUMMER READING</h4>
+        <a href="summer.html">
+        <button>MUA NGAY</button>
+        </a>
+      </div>
+
+      <div class="card">
+        <h4>SÁCH THIẾU NHI</h4>
+        <a href="thieunhi.html">
+        <button>MUA NGAY</button>
+        </a>
+      </div>
+
+      <div class="card">
+        <h4>PHÁT TRIỂN BẢN THÂN`</h4>
+        <a href="phattrienbanthan.html">
+        <button>MUA NGAY</button>
+        </a>
+      </div>
+
+      <div class="card">
+        <h4>DU LỊCH & KHÁM PHÁ</h4>
+        <a href="dulich.html">
+        <button>MUA NGAY</button>
+        </a>
+      </div>
+
+    </section>
+
+      <!-- PRODUCT LIST -->
+<section class="product-list" id="productList">
+<!--BOOK 1-->
+  <div class="product-card">
+    <a href="dacnhantam.html">
+      <img src="../anh/dacnhantam" alt="Đắc Nhân Tâm">
+    </a>
+
+    <h3>Đắc Nhân Tâm</h3>
+
+    <div class="rating">⭐⭐⭐⭐</div>
+
+    <div class="price">
+      <span class="new">60.000đ</span>
+      <span class="old">75.000đ</span>
+    </div>
+    <a href="thanhtoan.html">
+    <button class="cart">🛒</button>
+    </a>
+  </div>
+<!--BOOK 2-->
+  <div class="product-card">
+    <a href="tuduyhethong.html">
+      <img src="../anh/tuduyhethong.webp" alt="Tư Duy Hệ Thống">
+    </a>
+
+    <h3>Tư Duy Hệ Thống</h3>
+
+    <div class="rating">⭐⭐⭐</div>
+
+    <div class="price">
+      <span class="new">119.250đ</span>
+      <span class="old">159.000đ</span>
+    </div>
+    
+    <a href="thanhtoan.html">
+    <button class="cart">🛒</button>
+    </a>
+  </div>
+<!--BOOK 3-->
+  <div class="product-card">
+    <a href="tuduylogic.html">
+      <img src="../anh/tuduylogic" alt="Tư Duy Logic">
+    </a>
+
+    <h3>Tư Duy Logic</h3>
+
+    <div class="rating">⭐⭐⭐⭐⭐</div>
+
+    <div class="price">
+      <span class="new">143.500đ</span>
+      <span class="old">169.000đ</span>
+    </div>
+
+    <a href="thanhtoan.html">
+    <button class="cart">🛒</button>
+    </a>
+  </div>
+<!--BOOK 4-->
+  <div class="product-card">
+    <a href="dayconlamgiau.html">
+      <img src="../anh/dayconlamgiau" alt="Dạy con làm giàu - Tập 6">
+    </a>
+
+    <h3>Dạy con làm giàu - Tập 6</h3>
+
+    <div class="rating">⭐⭐⭐⭐⭐</div>
+
+    <div class="price">
+      <span class="new">61.300đ</span>
+      <span class="old">82.000đ</span>
+    </div>
+
+    <a href="thanhtoan.html">
+    <button class="cart">🛒</button>
+    </a>
+  </div>
+<!--BOOK 5-->
+  <div class="product-card">
+    <a href="nhagiakim.html">
+      <img src="../anh/nhagiakim" alt="Nhà Giả Kim">
+    </a>
+
+    <h3>Nhà Giả Kim</h3>
+
+    <div class="rating">⭐⭐⭐⭐⭐</div>
+
+    <div class="price">
+      <span class="new">80.500đ</span>
+      <span class="old">95.000đ</span>
+    </div>
+
+    <a href="thanhtoan.html">
+    <button class="cart">🛒</button>
+    </a>
+  </div>
+<!--BOOK 6-->
+  <div class="product-card">
+    <a href="truyenkieu.html">
+      <img src="../anh/truyenkieu" alt="Truyện Kiều">
+    </a>
+
+    <h3>Truyện Kiều</h3>
+
+    <div class="rating">⭐⭐⭐⭐</div>
+
+    <div class="price">
+      <span class="new">68.000đ</span>
+      <span class="old">99.000đ</span>
+    </div>
+
+    <a href="thanhtoan.html">
+    <button class="cart">🛒</button>
+    </a>
+  </div>
+
+<!--BOOK 7-->
+  <div class="product-card">
+    <a href="tamlydamdong.html">
+      <img src="../anh/tamlyhocdamdong.png" alt="Tâm Lý Học Đám Đông">
+    </a>
+
+    <h3>Tâm Lý Học Đám Đông</h3>
+
+    <div class="rating">⭐⭐⭐</div>
+
+    <div class="price">
+      <span class="new">88.000đ</span>
+      <span class="old">109.000đ</span>
+    </div>
+
+    <a href="thanhtoan.html">
+    <button class="cart">🛒</button>
+    </a>
+  </div>
+
+<!--BOOK 8-->
+  <div class="product-card">
+    <a href="lamitduocnhieu.html">
+      <img src="../anh/lamitduocnhieu.png" alt="Làm ít được nhiều">
+    </a>
+
+    <h3>Làm ít được nhiều</h3>
+
+    <div class="rating">⭐⭐⭐⭐</div>
+
+    <div class="price">
+      <span class="new">59.000đ</span>
+      <span class="old">79.000đ</span>
+    </div>
+
+    <a href="thanhtoan.html">
+    <button class="cart">🛒</button>
+    </a>
+  </div>
+
+<!--BOOK 9-->
+  <div class="product-card">
+    <a href="lamitduocnhieutaiban.html">
+      <img src="../anh/lamitduocnhieu-DoLessAchieveMore(taiban2022).png" alt="Làm ít được nhiều - Tái bản 2022">
+    </a>
+
+    <h3>Làm ít được nhiều - Tái bản 2022</h3>
+
+    <div class="rating">⭐⭐⭐⭐⭐</div>
+
+    <div class="price">
+      <span class="new">89.000đ</span>
+      <span class="old">119.000đ</span>
+    </div>
+
+    <a href="thanhtoan.html">
+    <button class="cart">🛒</button>
+    </a>
+  </div>
+
+<!--BOOK 10-->
+  <div class="product-card">
+    <a href="doraemon-tap-23.html">
+      <img src="../anh/doraemon-tap-23.png" alt="Doraemon Tập 23">
+    </a>
+
+    <h3>Doraemon Tập 23</h3>
+
+    <div class="rating">⭐⭐⭐⭐</div>
+
+    <div class="price">
+      <span class="new">69.000đ</span>
+      <span class="old">99.000đ</span>
+    </div>
+
+    <a href="thanhtoan.html">
+    <button class="cart">🛒</button>
+    </a>
+  </div>
+
+<!--BOOK 11-->
+  <div class="product-card">
+    <a href="doraemon-tap-26.html">
+      <img src="../anh/doraemon-tap-26.png" alt="Doraemon Tập 26">
+    </a>
+
+    <h3>Doraemon Tập 26</h3>
+
+    <div class="rating">⭐⭐⭐⭐</div>
+
+    <div class="price">
+      <span class="new">69.000đ</span>
+      <span class="old">99.000đ</span>
+    </div>
+
+    <a href="thanhtoan.html">
+    <button class="cart">🛒</button>
+    </a>
+  </div>
+
+<!--BOOK 12-->
+  <div class="product-card">
+    <a href="hoangtube.html">
+      <img src="../anh/hoangtube.png" alt="Hoàng Tử Bé">
+    </a>
+
+    <h3>Hoàng Tử Bé</h3>
+
+    <div class="rating">⭐⭐⭐⭐</div>
+
+    <div class="price">
+      <span class="new">59.000đ</span>
+      <span class="old">89.000đ</span>
+    </div>
+
+    <a href="thanhtoan.html">
+    <button class="cart">🛒</button>
+    </a>
+  </div>
+
+<!--BOOK 13-->
+  <div class="product-card">
+    <a href="chimnhai.html">
+      <img src="../anh/chimnhai.png" alt="Chim Nhại">
+    </a>
+
+    <h3>Chim Nhại</h3>
+
+    <div class="rating">⭐⭐</div>
+
+    <div class="price">
+      <span class="new">99.000đ</span>
+      <span class="old">129.000đ</span>
+    </div>
+
+    <a href="thanhtoan.html">
+    <button class="cart">🛒</button>
+    </a>
+  </div>
+
+<!--BOOK 13-->
+  <div class="product-card">
+    <a href="sodo.html">
+      <img src="../anh/sodo.png" alt="Số Đỏ">
+    </a>
+
+    <h3>Số Đỏ</h3>
+
+    <div class="rating">⭐⭐⭐⭐</div>
+
+    <div class="price">
+      <span class="new">96.000đ</span>
+      <span class="old">109.000đ</span>
+    </div>
+
+    <a href="thanhtoan.html">
+    <button class="cart">🛒</button>
+    </a>
+  </div>
+
+<!--BOOK 14-->
+  <div class="product-card">
+    <a href="harrypottervahondaphuthuy.html">
+      <img src="../anh/harrypottervahondaphuthuy.png" alt="Harry Potter và Hòn Đá Phù Thủy">
+    </a>
+
+    <h3>Harry Potter và Hòn Đá Phù Thủy</h3>
+
+    <div class="rating">⭐⭐⭐⭐</div>
+
+    <div class="price">
+      <span class="new">159.000đ</span>
+      <span class="old">179.000đ</span>
+    </div>
+
+    <a href="thanhtoan.html">
+    <button class="cart">🛒</button>
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- CỘT 1 -->
+        <div class="footer-col">
+          <a href="trangchumesach.html">
+            <img src="../anh/meme.png" class="footer-logoo" />
+          </a>
+
+          <p>
+            170 An Dương Vương, tỉnh Gia Lai<br />
+            mesach.com là kênh bán sách trực tuyến, hỗ trợ đặt hàng online nhanh
+            chóng và giao sách tận nơi cho khách hàng trên toàn quốc.
+          </p>
+          <a>
+            <img src="../anh/logocuoi.png" class="footer-log" />
+          </a>
+        </div>
+
+        <!-- CỘT 2 -->
+        <div class="footer-col">
+          <h3>DỊCH VỤ</h3>
+          <ul>
+            <li>Điều khoản sử dụng</li>
+            <li>Chính sách bảo mật</li>
+            <li>Chính sách thanh toán</li>
+            <li>Giới thiệu Mê sách</li>
+            <li>Hệ thống nhà sách</li>
+          </ul>
+          <h4>LIÊN HỆ</h4>
+          <ul>
+          <li>📍170 An Dương Vương</li>
+          </ul>
+          <a>
+            <img src="../anh/momo.png" class="footer-logo" />
+          </a>
+        </div>
+
+        <!-- CỘT 3 -->
+        <div class="footer-col">
+          <h3>HỖ TRỢ</h3>
+          <ul>
+            <li>Chính sách đổi trả</li>
+            <li>Chính sách bảo hành</li>
+            <li>Chính sách vận chuyển</li>
+            <li>Chính sách khách sỉ</li>
+          </ul>
+          <ul>
+            <br></br>
+            <li>📧cskh@mesach.com.vn</li>
+          </ul>
+          <a>
+            <img src="../anh/shopee.png" class="footer-logo" />
+          </a>
+        </div>
+
+        <!-- CỘT 4 -->
+        <div class="footer-col">
+          <h3>TÀI KHOẢN CỦA TÔI</h3>
+          <ul>
+            <li><a href="tranglogin.html">Đăng nhập / Tạo tài khoản</a></li>
+            <li>Thay đổi địa chỉ</li>
+            <li>Chi tiết tài khoản</li>
+            <li>Lịch sử mua hàng</li>
+          </ul>
+          <ul>
+            <br></br>
+            <li>📞1900 1234</li>
+          </ul>
+          <a>
+            <img src="../anh/vnpay.png" class="footer-logo" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
