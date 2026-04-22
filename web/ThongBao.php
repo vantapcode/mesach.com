@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Trang Thông Báo</title>
+
+<link rel="stylesheet" href="thongbao.css">
+
+</head>
+
+<body>
+
+<div class="header">
+<a href="trangchumesach.php" class="back">⬅</a>
+Trang Thông Báo
+</div>
+
+<div class="container">
+
+<h2>Thông báo</h2>
+
+<div class="notice-box">
+
+<div class="notice">
+<div class="date">12/03/2026</div>
+<h3>🎉 Mừng Xuân Bính Ngọ</h3>
+<p>Giảm giá đến 30% cho tất cả sách kỹ năng và tiểu thuyết.</p>
+</div>
+
+<div class="notice">
+<div class="date">10/03/2026</div>
+<h3>🔥 Sách mới đã cập nhật</h3>
+<p>Đã thêm nhiều đầu sách mới về lập trình và kinh doanh.</p>
+</div>
+
+<div class="notice">
+<div class="date">05/03/2026</div>
+<h3>⚠ Thông báo bảo trì</h3>
+<p>Website sẽ bảo trì từ 22h đến 23h ngày 15/03.</p>
+</div>
+
+<div class="notice">
+<div class="date">16/03/2026</div>
+<h3>🎓 Ưu đãi mùa thi</h3>
+<p>Giảm 20% cho các sách luyện thi và sách học tập.</p>
+</div>
+
+<div class="notice">
+<div class="date">18/03/2026</div>
+<h3>📚 Sách bán chạy tuần này</h3>
+<p>Nhiều đầu sách bán chạy được giảm thêm 10% khi mua online.</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="container">
+
+<h2>Cập nhật đơn hàng</h2>
+
+<div class="notice">
+<p>📦 Hiện tại chưa có đơn hàng nào.</p>
+</div>
+
+</div>
+
+<footer class="footer">
+<div class="footer-container">
+
+<div class="footer-col">
+<img src="../anh/meme.png" class="footer-logoo">
+
+<p>
+170 An Dương Vương, tỉnh Gia Lai<br>
+mesach.com là kênh bán sách trực tuyến hỗ trợ đặt hàng online nhanh chóng.
+</p>
+
+<img src="../anh/logocuoi.png" class="footer-log">
+</div>
+
+<div class="footer-col">
+<h3>DỊCH VỤ</h3>
+<ul>
+<li>Điều khoản sử dụng</li>
+<li>Chính sách bảo mật</li>
+<li>Chính sách thanh toán</li>
+<li>Giới thiệu Mê sách</li>
+<li>Hệ thống nhà sách</li>
+</ul>
+
+<h4>LIÊN HỆ</h4>
+<ul>
+<li>📍170 An Dương Vương</li>
+</ul>
+
+<img src="../anh/momo.png" class="footer-logo">
+</div>
+
+<div class="footer-col">
+<h3>HỖ TRỢ</h3>
+<ul>
+<li>Chính sách đổi trả</li>
+<li>Chính sách bảo hành</li>
+<li>Chính sách vận chuyển</li>
+<li>Chính sách khách sỉ</li>
+</ul>
+
+<ul>
+<li>📧cskh@mesach.com.vn</li>
+</ul>
+
+<img src="../anh/shopee.png" class="footer-logo">
+</div>
+
+<div class="footer-col">
+<h3>TÀI KHOẢN CỦA TÔI</h3>
+<ul>
+<li>Đăng nhập / Tạo tài khoản</li>
+<li>Thay đổi địa chỉ</li>
+<li>Chi tiết tài khoản</li>
+<li>Lịch sử mua hàng</li>
+</ul>
+
+<ul>
+<li>📞1900 1234</li>
+</ul>
+
+<img src="../anh/vnpay.png" class="footer-logo">
+</div>
+
+</div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Giỏ hàng - Mesach</title>
+  <link rel="stylesheet" href="giohang.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+  <div class="top-bar">
+    <div class="logo">
+      <a href="trangchumesach.php">
+        <img src="../anh/meesach.jpg" alt="mesach" />
+      </a>
+    </div>
+  </div>
+
+  <div class="menu">
+    <div class="menu-left">
+      <a href="danhmucsanpham.php"><span>☰</span></a>
+    </div>
+    <div class="search">
+      <input type="text" placeholder="Tìm sách" />
+      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <div class="menu-right">
+      <a href="ThongBao.php"><span><i class="fa-regular fa-bell"></i> Thông Báo</span></a>
+      <a href="tranglogin.php"><span><i class="fa-regular fa-user"></i> Tài Khoản</span></a>
+    </div>
+  </div>
+  <div class="title">Giỏ hàng</div>
+
+  <div class="container">
+    <div class="cart">
+      <div class="cart-head">
+        <label>
+          <input type="checkbox" id="check-all" />
+          Chọn tất cả (<span id="cart-count">0</span> sản phẩm)
+        </label>
+        <div class="cart-header-r">
+          <span>Số lượng</span>
+          <span>Giá tiền</span>
+        </div>
+      </div>
+
+      <div class="item" data-price="67500">
+        <input type="checkbox" class="item-checkbox" />
+        <img src="../anh/doraemon-tap-23.png" alt="book" />
+        <div class="info">
+          <p>Doraemon Tập 23</p>
+          <p class="sub">69.000 đ</p>
+        </div>
+        <div class="qty">
+          <button class="btn-minus">-</button>
+          <input type="number" value="1" readonly />
+          <button class="btn-plus">+</button>
+        </div>
+        <div class="price">69.000 đ</div>
+        <div class="trash">
+          <i class="fa-solid fa-trash-can"></i>
+        </div>
+      </div>
+
+      <div class="item" data-price="110000">
+        <input type="checkbox" class="item-checkbox" />
+        <img src="../anh/DoanhNhan.jpg" alt="book" />
+        <div class="info">
+          <p>Làm ít được nhiều</p>
+          <p class="sub">59.000 đ</p>
+        </div>
+        <div class="qty">
+          <button class="btn-minus">-</button>
+          <input type="number" value="1" readonly />
+          <button class="btn-plus">+</button>
+        </div>
+        <div class="price">58.000 đ</div>
+        <div class="trash">
+          <i class="fa-solid fa-trash-can"></i>
+        </div>
+      </div>
+
+      <div class="item" data-price="60000">
+        <input type="checkbox" class="item-checkbox" />
+        <img src="../anh/dacnhantam.png" alt="book" />
+        <div class="info">
+          <p>Đắc Nhân Tâm</p>
+          <p class="sub">60.000 đ</p>
+        </div>
+        <div class="qty">
+          <button class="btn-minus">-</button>
+          <input type="number" value="1" readonly />
+          <button class="btn-plus">+</button>
+        </div>
+        <div class="price">60.000 đ</div>
+        <div class="trash">
+          <i class="fa-solid fa-trash-can"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="summary">
+      <div class="row">
+        <span>Thành tiền</span>
+        <span id="subtotal">0 đ</span>
+      </div>
+      <div class="row total">
+        <span>Tổng Số Tiền (gồm VAT)</span>
+        <span id="total-final">0 đ</span>
+      </div>
+      <a href="thanhtoan.php">
+        <button class="pay">THANH TOÁN</button>
+      </a>
+      <p class="note">(Giảm giá trên web chỉ áp dụng cho bán lẻ)</p>
+    </div>
+  </div>
+</body>
+
+</html>
